@@ -1,1 +1,13 @@
 #problem-statement
+# Problem statement for Large Language Model
+# The user review data has to be downloaded from the given repository
+# A Model has to be built using Basic steps, which can help predict the Rating for given Review
+# The embeddings can be used for any of the provider, like Universal Sentence Encoder or OpenAI
+# The review data handling, processing the embeddings, Building the Model should be done in a way:
+#     : the usage of Memory is low
+#     : the Model can be built and run with given basic resources of google colab notebook, and without deploying any high end server
+#     : the time taken in different steps should not overshoot and become unacceptable
+#     : using Batch processing, iteratively is preferred
+#     : using cache is preferred
+#     : the Model should be saved for future, and not to be built again
+#     : the embeddings also should be saved, to avoid downloading again, saving cost
